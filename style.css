@@ -163,6 +163,10 @@ img {
 .img {
   grid-column: 1 / 2;
 }
+/* slider start  */
+
+/* slider start  */
+
 .description {
   grid-column: 2 / -1;
   display: flex;
@@ -413,7 +417,6 @@ input[type='email'] {
   }
   .description {
     grid-column: 1/12;
-    gap: 2.5em;
   }
 }
 @media (max-width: 600px) {
@@ -425,6 +428,5 @@ input[type='email'] {
   }
   .description {
     grid-column: 1/-1;
-    gap: 3em;
   }
 }
