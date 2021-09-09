@@ -392,8 +392,8 @@ input[type='email'] {
     display: block;
   }
   .contact_info {
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     background-color: var(--pri-bgc-clr-dark);
     padding: 2em 0;
     margin-bottom: 3em;
