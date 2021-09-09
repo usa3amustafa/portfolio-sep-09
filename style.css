@@ -332,7 +332,7 @@ input {
   grid-column: 1 / -1;
 }
 .full textarea {
-  width: 100%;
+  width: 95%;
   border: none;
   border-radius: 5px;
 }
@@ -344,13 +344,13 @@ input[type='email'] {
   height: 3em;
   border-radius: 5px;
   border: none;
-  width: 80%;
+  width: 90%;
 }
 .phoneno {
   height: 3em;
   border-radius: 5px;
   border: none;
-  width: 80%;
+  width: 90%;
 }
 .sendbtn {
   margin-top: 1em;
@@ -392,12 +392,16 @@ input[type='email'] {
     display: block;
   }
   .contact_info {
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
     background-color: var(--pri-bgc-clr-dark);
     padding: 2em 0;
     margin-bottom: 3em;
     transition: var(--transition);
+  }
+  .contact_info_title {
+    font-size: 2rem;
+    font-weight: 300;
   }
 }
 @media (max-width: 900px) {
@@ -428,5 +432,13 @@ input[type='email'] {
   }
   .description {
     grid-column: 1/-1;
+  }
+  form {
+    display: block;
+  }
+  form input[type='text'],
+  input[type='email'],
+  .phoneno {
+    width: 95%;
   }
 }
