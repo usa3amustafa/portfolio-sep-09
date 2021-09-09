@@ -438,7 +438,8 @@ input[type='email'] {
   }
   form input[type='text'],
   input[type='email'],
-  .phoneno {
-    width: 95%;
+  .phoneno,
+  .full textarea {
+    width: 100%;
   }
 }
