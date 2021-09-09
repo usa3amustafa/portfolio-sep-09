@@ -382,6 +382,7 @@ input[type='email'] {
   .description {
     grid-column: 1/10;
     grid-row: 2, -1;
+    gap: 2em;
   }
   .contact .contact_main {
     display: block;
@@ -412,6 +413,7 @@ input[type='email'] {
   }
   .description {
     grid-column: 1/12;
+    gap: 2.5em;
   }
 }
 @media (max-width: 600px) {
@@ -423,5 +425,6 @@ input[type='email'] {
   }
   .description {
     grid-column: 1/-1;
+    gap: 3em;
   }
 }
