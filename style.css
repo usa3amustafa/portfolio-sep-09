@@ -16,6 +16,7 @@
   --pri-t-clr: #f3f6fb;
   --sec-t-clr: #0c335a;
   --black-t-clr: #333;
+  --border-radius: 3px;
   --font-family: 'Poppins', sans-serif;
   --transition: all 0.3s ease-in-out;
   font-size: 15px;
@@ -112,7 +113,7 @@ img {
 .btn {
   display: inline-block;
   padding: 1em 2em;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   margin-right: 1em;
   border: 1px solid var(--pri-bgc-clr-light);
   transition: var(--transition);
@@ -152,7 +153,7 @@ img {
 }
 .project {
   border: 1px solid var(--sec-border-clr);
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   background-color: var(--sec-bgc-clr);
   margin: 3em 0;
   padding: 3em 1em;
@@ -183,7 +184,7 @@ img {
   color: var(--pri-t-clr);
   padding: 0.3em 0.7em;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   cursor: pointer;
   display: inline-block;
   transition: var(--transition);
@@ -222,6 +223,7 @@ img {
 .skill {
   padding: 1em;
   border: 1px solid var(--pri-bgc-clr-light);
+  border-radius: var(--border-radius);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,7 +255,7 @@ img {
 }
 .service {
   border: 1px solid var(--sec-border-clr);
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   padding: 2em;
   transition: var(--transition);
 }
@@ -296,6 +298,7 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0.7em;
+  border-radius: var(--border-radius);
 }
 .contact_info .contact_info_title {
   font-weight: 500;
@@ -334,7 +337,7 @@ input {
 .full textarea {
   width: 95%;
   border: none;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
 }
 label {
   font-weight: 300;
@@ -342,13 +345,13 @@ label {
 input[type='text'],
 input[type='email'] {
   height: 3em;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   border: none;
   width: 90%;
 }
 .phoneno {
   height: 3em;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   border: none;
   width: 90%;
 }
