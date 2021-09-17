@@ -8,14 +8,14 @@
 }
 
 :root {
-  --pri-bgc-clr: #047aed;
+  --pri-bgc-clr: #161a1d;
   --sec-bgc-clr: #e8e8e8;
   --sec-border-clr: #dddddd;
-  --pri-bgc-clr-light: #338feb;
-  --pri-bgc-clr-dark: #0064c9;
-  --hover-clr: #0c335a;
+  --pri-bgc-clr-light: #333;
+  --pri-bgc-clr-dark: #4d4d4d;
+  --hover-clr: #333;
   --pri-t-clr: #f3f6fb;
-  --sec-t-clr: #0c335a;
+  --sec-t-clr: #333;
   --black-t-clr: #333;
   --border-radius: 3px;
   --font-family: 'Poppins', sans-serif;
@@ -322,6 +322,7 @@ img {
 /* form  */
 .contact_form {
   grid-column: 2/-1;
+  padding: 1em;
 }
 form {
   display: grid;
